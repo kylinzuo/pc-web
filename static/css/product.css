@@ -1,0 +1,51 @@
+.banner {
+  background: #2b2d34 url(../../images/product-banner.png) center;
+  background-size: cover;
+  height: 240px;
+}
+.product-intro .container {
+  max-width: 940px;
+  min-width: 940px;
+}
+.product-intro .container ul {
+  color: #333333;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  letter-spacing: 0.88px;
+  line-height: 30px;
+  list-style: none;
+  margin: 5.5rem 0;
+  padding: 0;
+}
+.product-intro .container ul li {
+  height: 300px;
+  margin-bottom: 1.25rem;
+}
+.product-intro .container ul li img {
+  width: 300px;
+  height: 300px;
+}
+.product-intro .container ul li .intro-content {
+  text-align: justify;
+}
+.product-intro .container ul li .intro-content h5 {
+  font-size: 1.875rem;
+  margin-bottom: 0.625rem;
+}
+.product-intro .container ul > :nth-child(2n+1) img {
+  float: left;
+}
+.product-intro .container ul > :nth-child(2n+1) .intro-content {
+  padding: 0 1.25rem 1.25rem;
+  margin-left: 320px;
+}
+.product-intro .container ul > :nth-child(2n) {
+  background: #F7F7F7;
+}
+.product-intro .container ul > :nth-child(2n) img {
+  float: right;
+}
+.product-intro .container ul > :nth-child(2n) .intro-content {
+  padding: 1.25rem;
+  margin-right: 320px;
+}
