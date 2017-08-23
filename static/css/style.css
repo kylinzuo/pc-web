@@ -1,7 +1,13 @@
+@charset "UTF-8";
+html {
+  font-family: "PingFang SC", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+  font-size: 16px; }
+
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "PingFang SC", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
   font-size: 16px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  overflow-x: hidden; }
 
 a {
   color: #3dd4af; }
@@ -53,7 +59,7 @@ p {
 .emphasis {
   font-family: Georgia, Times, 'Times New Roman';
   font-style: italic;
-  color: #3dd4af; }
+  color: #5286DF; }
 
 .constrain-width {
   max-width: 45rem;
@@ -155,7 +161,7 @@ p {
   color: #dfe1e5 !important; }
 
 .navbar-custom {
-  background: transparent; }
+  background: rgba(0, 0, 0, 0.8); }
 
 a.navbar-brand {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -172,89 +178,204 @@ li.nav-item .btn-white {
   color: #46484a; }
 
 .cover-1 {
-  background: #2b2d34 url(../../images/cover-bg-1.jpg) center;
-  background-size: cover;
-  min-height: 50rem;
   height: auto;
   border-radius: 0;
-  width: 100%;
-  color: #fff;
-  padding-top: 1rem; }
-  .cover-1 p.lead {
-    margin: 2rem auto;
-    color: rgba(255, 255, 255, 0.75); }
-  .cover-1 .cover-container {
-    display: table;
-    height: 44rem;
-    margin: 0 auto; }
+  width: 100%; }
+  .cover-1 .swiper-container {
+    color: #000;
+    width: 100%;
+    height: 45rem; }
+    .cover-1 .swiper-container .swiper-slide1 {
+      background: #2b2d34 url(../../images/banner1.png) center;
+      background-size: cover; }
+    .cover-1 .swiper-container .swiper-slide2 {
+      background: #2b2d34 url(../../images/banner2.png) center;
+      background-size: cover; }
+    .cover-1 .swiper-container .swiper-pagination-bullet {
+      background: rgba(0, 0, 0, 0.5); }
+    .cover-1 .swiper-container .swiper-pagination-bullet-active {
+      background: #fff; }
 
-.cover-2 {
-  background: #2b2d34 url(../../images/cover-bg-1.jpg) center;
-  background: #2b2d34;
-  background-size: cover;
-  min-height: 50rem;
-  height: auto;
-  border-radius: 0;
+.cooperate-company {
+  color: #000000;
+  font-family: PingFangSC-Thin;
   width: 100%;
-  color: #fff;
-  padding-top: 1rem; }
-  .cover-2 p.lead {
-    margin: 2rem auto;
-    color: rgba(255, 255, 255, 0.75); }
-  .cover-2 .cover-container {
-    display: table;
-    height: 100%;
-    min-height: 44rem;
-    margin: 0 auto; }
+  height: 66rem; }
+  .cooperate-company h2 {
+    font-size: 56px;
+    padding: 7.5rem 0 1.25rem;
+    margin: 0; }
+  .cooperate-company p {
+    color: #000000;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 50rem; }
+  .cooperate-company .statistical－curve {
+    border: 1px solid #000000;
+    width: 50rem;
+    height: 29rem;
+    margin: 5.3rem auto 4.75rem; }
 
-.cover-3 {
-  background: #f7f7f8;
+.team-intro {
+  background: #2b2d34 url(../../images/team.png) center;
   background-size: cover;
-  min-height: 40rem;
-  height: auto;
-  border-radius: 0;
-  width: 100%;
-  color: #46484a;
-  padding-top: 1rem; }
-  .cover-3 a.navbar-brand {
-    color: #000 !important; }
-  .cover-3 h1 {
-    color: #000; }
-  .cover-3 p.lead {
-    margin: 2rem auto;
-    color: #696b6e; }
-  .cover-3 .cover-container {
-    display: table;
-    height: 100%;
-    min-height: 34rem;
-    padding-top: 2rem;
-    margin: 0 auto; }
-  .cover-3 .col-feature {
-    padding-top: 0rem;
-    padding-bottom: 1rem;
+  color: #FFFFFF;
+  font-family: PingFangSC-Thin;
+  width: 100%; }
+  .team-intro .container {
+    padding: 10rem 0; }
+    .team-intro .container h2 {
+      margin-bottom: 1.25rem; }
+    .team-intro .container p {
+      color: inherit;
+      font-size: 20px;
+      line-height: 40px;
+      max-width: 940px;
+      margin: 0 auto; }
+
+.digital-currency {
+  padding: 2.8rem 0 0 0; }
+  .digital-currency .container-fluid {
+    padding-right: 0;
     padding-left: 0; }
-    .cover-3 .col-feature em {
-      margin-bottom: 1rem;
-      color: #3dd4af; }
+  .digital-currency h2 {
+    margin-bottom: 1.25rem; }
+  .digital-currency p {
+    color: #000000;
+    font-family: PingFangSC-Thin;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px; }
+  .digital-currency img {
+    width: 100%; }
+  .digital-currency .item {
+    background: #2b2d34 center;
+    background-size: cover;
+    min-height: 20rem; }
 
-.cover-inner {
-  display: table-cell;
-  vertical-align: middle; }
-
-.features-1 {
+.cooperate－features {
   padding: 5rem 0; }
-  .features-1 h2 {
-    margin-top: 2rem; }
-  .features-1 .col-feature {
+  .cooperate－features .col-feature {
     padding-top: 2rem;
     padding-bottom: 2rem; }
-    .features-1 .col-feature .rounded-circle {
+    .cooperate－features .col-feature .rounded-circle {
       margin: 0 auto;
       margin-bottom: 2rem;
       width: 6rem;
       height: 6rem;
       background: none;
       border: 0.15rem solid #dfe1e5; }
+  .cooperate－features i {
+    font-size: 2.5rem; }
+  .cooperate－features h4 {
+    color: #202020;
+    font-family: PingFangSC-Semibold;
+    font-size: 1.625rem;
+    margin-bottom: 0.625rem; }
+  .cooperate－features p {
+    color: #202020;
+    font-family: PingFangSC-Light;
+    font-size: 0.875rem;
+    max-width: 16rem;
+    margin: 0 auto; }
+
+.about-us {
+  padding: 5rem 0 5rem 0; }
+  .about-us .lead {
+    margin-bottom: -1rem; }
+  .about-us .divider {
+    margin-bottom: 4.375rem; }
+  .about-us .box {
+    background: #fff;
+    box-shadow: 0px 0.2rem 2rem rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    margin-bottom: 2rem; }
+  .about-us .col-team img {
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    width: 50%; }
+  .about-us .map {
+    height: 400px; }
+    .about-us .map > div {
+      border: 1px solid #999;
+      padding: 0; }
+
+.contact-us {
+  background: #F8F8F9;
+  color: #696969;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  letter-spacing: 0.86px;
+  line-height: 20px;
+  width: 100%; }
+  .contact-us .container {
+    height: 100%; }
+  .contact-us .row {
+    height: 100%; }
+    .contact-us .row > div {
+      padding: 2rem; }
+  .contact-us .nav-text {
+    padding: 0;
+    margin-bottom: 1.25rem; }
+    .contact-us .nav-text a {
+      color: rgba(0, 0, 0, 0.5);
+      font-family: PingFangSC-Medium;
+      font-size: 20px;
+      padding: 0.5rem 0.5rem 0.5rem 0; }
+    .contact-us .nav-text .two-word {
+      padding-right: 2rem; }
+    .contact-us .nav-text .active a {
+      color: #000; }
+  .contact-us p {
+    text-align: justify; }
+  .contact-us h5 {
+    color: #333333;
+    font-family: PingFangSC-Semibold;
+    font-size: 1.25rem;
+    margin: 2.75rem 0 1.85rem; }
+  .contact-us .nav-icon {
+    padding: 0; }
+    .contact-us .nav-icon a {
+      color: #777B80;
+      display: block;
+      font-family: PingFangSC-Regular;
+      font-size: 0.75rem;
+      padding: 0; }
+      .contact-us .nav-icon a .icon {
+        display: table;
+        text-align: center;
+        width: 3.75rem;
+        height: 3.75rem; }
+        .contact-us .nav-icon a .icon i {
+          display: table-cell;
+          font-size: 2rem;
+          vertical-align: middle; }
+  .contact-us .way h5 {
+    color: #000000;
+    font-family: PingFangSC-Medium;
+    font-size: 1.25rem;
+    margin-top: 0; }
+  .contact-us .way h6 {
+    color: #000000;
+    font-family: PingFangSC-Medium;
+    font-size: 1rem; }
+  .contact-us .way p {
+    color: #696969;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    max-width: 18.75rem; }
+  .contact-us .way .weixin {
+    margin-top: 1.5rem;
+    cursor: pointer; }
+    .contact-us .way .weixin .icon {
+      display: table;
+      text-align: center;
+      width: 3.75rem;
+      height: 3.75rem; }
+      .contact-us .way .weixin .icon i {
+        display: table-cell;
+        font-size: 2rem;
+        vertical-align: middle; }
 
 .features-2 {
   padding: 5rem 0; }
@@ -357,18 +478,6 @@ li.nav-item .btn-white {
       width: 98%;
       max-width: 8rem; }
 
-.team-3 {
-  padding: 5rem 0 5rem 0; }
-  .team-3 .box {
-    background: #fff;
-    box-shadow: 0px 0.2rem 2rem rgba(0, 0, 0, 0.05);
-    padding: 2rem;
-    margin-bottom: 2rem; }
-  .team-3 .col-team img {
-    margin-top: .5rem;
-    margin-bottom: 2rem;
-    width: 50%; }
-
 .social {
   margin: 0 auto;
   padding: 0; }
@@ -421,20 +530,6 @@ li.nav-item .btn-white {
   .cell {
     width: 50%;
     width: calc(50% - 1rem); } }
-
-.gallery-2 {
-  padding: 5rem 0 0 0; }
-  .gallery-2 .container-fluid {
-    padding-right: 0;
-    padding-left: 0; }
-  .gallery-2 h3 {
-    margin-bottom: 0; }
-  .gallery-2 img {
-    width: 100%; }
-  .gallery-2 .item {
-    background: #2b2d34 center;
-    background-size: cover;
-    min-height: 20rem; }
 
 .gallery-3 {
   padding: 5rem 0; }

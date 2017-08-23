@@ -10,7 +10,7 @@ const JS_PATH = path.join(__dirname, "static/js");
 
 gulp.task("sass", () => {
   return gulp
-    .src("src/sass/**/*.scss")
+    .src("src/sass/*.scss")
     .pipe(sass())
     .pipe(gulp.dest(CSS_PATH))
 });
@@ -46,7 +46,7 @@ gulp.task('watch', ['browserSync'], function () {
   gulp.watch('./static/js/*.js', browserSync.reload);
 });
 
-gulp.task('default', ['watch']);
+gulp.task('default', ['build', 'watch']);
 
 // build
 gulp.task('build', ["sass", "less", "jsMove"]);
