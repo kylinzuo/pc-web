@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1503477560490'); /* IE9*/
-  src: url('iconfont.eot?t=1503477560490#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1503477560490') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1503477560490') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1503477560490#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1503544076969'); /* IE9*/
+  src: url('iconfont.eot?t=1503544076969#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1503544076969') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1503544076969') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1503544076969#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -17,9 +17,25 @@
 
 .icon-71:before { content: "\e68b"; }
 
+.icon-bind_wechat:before { content: "\e63e"; }
+
+.icon-xinwen-copy:before { content: "\e624"; }
+
+.icon-zhuanye:before { content: "\e8a7"; }
+
+.icon-fuwu:before { content: "\e61c"; }
+
 .icon-shoufei:before { content: "\e6de"; }
 
+.icon-duixiang:before { content: "\e66e"; }
+
+.icon-peizhi:before { content: "\e607"; }
+
+.icon-mubiao:before { content: "\e63f"; }
+
 .icon-zhinan:before { content: "\e649"; }
+
+.icon-yuyanyingwen:before { content: "\e611"; }
 
 .icon-Shape:before { content: "\e66a"; }
 
@@ -28,4 +44,30 @@
 .icon-transparent:before { content: "\e66c"; }
 
 .icon-logo:before { content: "\e66d"; }
+
+.icon-Building:before { content: "\e66f"; }
+
+.icon-accelerate:before { content: "\e670"; }
+
+.icon-content:before { content: "\e671"; }
+
+.icon-capital:before { content: "\e675"; }
+
+.icon-balance:before { content: "\e676"; }
+
+.icon-Global:before { content: "\e672"; }
+
+.icon-Future:before { content: "\e673"; }
+
+.icon-cooperation:before { content: "\e679"; }
+
+.icon-map:before { content: "\e674"; }
+
+.icon-Intelligence:before { content: "\e677"; }
+
+.icon-time:before { content: "\e678"; }
+
+.icon-Transfersecurity:before { content: "\e67b"; }
+
+.icon-Transferaccounts:before { content: "\e67a"; }
 

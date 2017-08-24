@@ -256,10 +256,12 @@ li.nav-item {
 			background-size: cover;
 		}
 		.swiper-pagination-bullet {
-			background: rgba(0, 0, 0, 0.5);
+			background: #fff;
+			opacity: 0.5;
 		}
 		.swiper-pagination-bullet-active {
 			background: #fff;
+			opacity: 1;
 		}
 	}
 }
@@ -271,7 +273,7 @@ li.nav-item {
 	width: 100%;
 	height: 66rem;
 	h2 {
-		font-size: 56px;
+		font-size: 48px;
 		padding: 7.5rem 0 1.25rem;
 		margin: 0;
 	}
@@ -299,6 +301,7 @@ li.nav-item {
 	.container {
 		padding: 10rem 0;
 		h2 {
+			font-size: 48px;
 			margin-bottom: 1.25rem;
 		}
 		p {
@@ -319,6 +322,8 @@ li.nav-item {
 	  padding-left: 0;
 	}
 	h2 {
+		color: #333;
+		font-size: 48px;
 		margin-bottom: 1.25rem;
 	}
 	p {
@@ -341,6 +346,11 @@ li.nav-item {
 // 美国持牌券商
 .cooperate－features {
 	padding: 5rem 0;
+	h2 {
+		color: #333333;
+		font-family: PingFangSC-Semibold;
+		font-size: 48px;
+	}
 	.col-feature {
 		padding-top: 2rem;
 		padding-bottom: 2rem;
@@ -374,6 +384,11 @@ li.nav-item {
 // 关于我们
 .about-us {
 	padding: 5rem 0 5rem 0;
+	h2 {
+		color: #333333;
+		font-family: PingFangSC-Semibold;
+		font-size: 48px;
+	}
 	.lead {
 		margin-bottom: -1rem;
 	}
@@ -394,7 +409,9 @@ li.nav-item {
 		}
 	}
 	.map {
+		width: 100%;
 		height: 400px;
+		margin: 0;
 		margin-top: 6rem;
 		&>div {
 			border: 1px solid #999;
@@ -414,6 +431,8 @@ li.nav-item {
 	width: 100%;
 	.container {
 		height: 100%;
+		max-width: 960px;
+		min-width: 960px;
 	}
 	.row {
 		height: 100%;
@@ -440,7 +459,9 @@ li.nav-item {
 		}
 	}
 	p {
+		color: #696969;
 		text-align: justify;
+		font-size: 12px;
 	}
 	h5 {
 		color: #333333;
@@ -449,6 +470,17 @@ li.nav-item {
 		margin: 2.75rem 0 1.85rem;
 	}
 	.nav-icon {
+		ul {
+			li {
+				margin: 0 7px;
+			}
+			&>:first-child{
+				margin-left: 0;
+			}
+			&>:last-child{
+				margin-right: 0;
+			}
+		}
 		padding: 0;
 		a {
 			color: #777B80;
@@ -527,6 +559,19 @@ li.nav-item {
 		}
 	}
 }
+
+// 清楚浮动
+.clear {
+	zoom:1;
+}    /*==for IE6/7 Maxthon2==*/
+.clear:after {
+	clear:both;
+	content:'.';
+	display:block;
+	width: 0;
+	height: 0;
+	visibility:hidden;
+}   /*==for FF/chrome/opera/IE8==*/
 
 // @media screen and (max-width: 768px) {
 

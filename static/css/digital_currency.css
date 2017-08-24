@@ -1,0 +1,59 @@
+.digital-currency-container {
+  margin: 0;
+  padding: 0;
+}
+.digital-currency-container .container {
+  min-width: 940px;
+  max-width: 940px;
+  padding: 0;
+}
+.digital-currency-container .classify h5 {
+  color: #333333;
+  font-family: PingFangSC-Semibold;
+  font-size: 1.5rem;
+  margin: 3.75rem 0 1.25rem;
+}
+.digital-currency-container .classify .intro-banner {
+  border-radius: 10px;
+  width: 100%;
+  height: 18.75rem;
+}
+.digital-currency-container .classify .intro-banner img {
+  border-radius: 10px;
+  width: inherit;
+  height: inherit;
+}
+.digital-currency-container .classify .row {
+  margin-top: 30px;
+}
+.digital-currency-container .classify .row .icon {
+  float: left;
+  margin: -10px 1.875rem 0 0;
+}
+.digital-currency-container .classify .row .icon i {
+  color: #5286DF;
+  font-size: 34px;
+}
+.digital-currency-container .classify .row .content {
+  margin-left: 4rem;
+  margin-right: 3.75rem;
+}
+.digital-currency-container .classify .row .content h6 {
+  color: #333333;
+  font-family: PingFangSC-Semibold;
+  font-size: 16px;
+}
+.digital-currency-container .classify .row .content p {
+  color: #535353;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  text-align: justify;
+}
+.digital-currency-container .two-img {
+  margin: 3.75rem 0 6.25rem;
+}
+.digital-currency-container .two-img img {
+  border-radius: 10px;
+  width: inherit;
+  height: 15rem;
+}
