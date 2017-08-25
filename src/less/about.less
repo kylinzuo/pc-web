@@ -53,13 +53,27 @@
       margin: 0;
       padding: 0;
       li {
-        width: inherit
+        width: inherit;
+        .avatar-container {
+          text-align: center;
+        }
+        .name {
+          color: #333333;
+          font-family: PingFangSC-Semibold;
+          font-size: 20px;
+          margin: 0;
+          margin-top: 30px;
+        }
+        .post {
+          color: #5286DF;
+          font-family: PingFangSC-Light;
+          font-size: 16px;
+          margin: 0;
+        }
       }
       &>:nth-child(2n+1){
+        margin-bottom: 60px;
         .avatar-container {
-          background: #FFFFFF;
-          box-shadow: 0 8px 16px 0 rgba(156,165,175,0.50);
-          border-radius: 6px;
           float: right;
         }
         .brief {
@@ -68,9 +82,6 @@
       }
       &>:nth-child(2n){
         .avatar-container {
-          background: #FFFFFF;
-          box-shadow: 0 8px 16px 0 rgba(156,165,175,0.50);
-          border-radius: 6px;
           float: left;
         }
         .brief {
@@ -78,6 +89,9 @@
         }
       }
       .avatar {
+        background: #FFFFFF;
+        box-shadow: 0 8px 16px 0 rgba(156,165,175,0.50);
+        border-radius: 6px;
         width: 220px;
         height: 240px;
         padding: 10px;

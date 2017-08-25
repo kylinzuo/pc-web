@@ -54,25 +54,41 @@
 .about-intro .compony-leader ul li {
   width: inherit;
 }
+.about-intro .compony-leader ul li .avatar-container {
+  text-align: center;
+}
+.about-intro .compony-leader ul li .name {
+  color: #333333;
+  font-family: PingFangSC-Semibold;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 30px;
+}
+.about-intro .compony-leader ul li .post {
+  color: #5286DF;
+  font-family: PingFangSC-Light;
+  font-size: 16px;
+  margin: 0;
+}
+.about-intro .compony-leader ul > :nth-child(2n+1) {
+  margin-bottom: 60px;
+}
 .about-intro .compony-leader ul > :nth-child(2n+1) .avatar-container {
-  background: #FFFFFF;
-  box-shadow: 0 8px 16px 0 rgba(156, 165, 175, 0.5);
-  border-radius: 6px;
   float: right;
 }
 .about-intro .compony-leader ul > :nth-child(2n+1) .brief {
   margin-right: 312px;
 }
 .about-intro .compony-leader ul > :nth-child(2n) .avatar-container {
-  background: #FFFFFF;
-  box-shadow: 0 8px 16px 0 rgba(156, 165, 175, 0.5);
-  border-radius: 6px;
   float: left;
 }
 .about-intro .compony-leader ul > :nth-child(2n) .brief {
   margin-left: 312px;
 }
 .about-intro .compony-leader ul .avatar {
+  background: #FFFFFF;
+  box-shadow: 0 8px 16px 0 rgba(156, 165, 175, 0.5);
+  border-radius: 6px;
   width: 220px;
   height: 240px;
   padding: 10px;

@@ -181,6 +181,10 @@ li.nav-item .btn-white {
   height: auto;
   border-radius: 0;
   width: 100%; }
+  .cover-1 .container {
+    max-width: 940px;
+    min-width: 940px;
+    padding: 0; }
   .cover-1 .swiper-container {
     color: #000;
     width: 100%;
@@ -413,7 +417,12 @@ li.nav-item .btn-white {
       bottom: 0;
       width: 100px;
       height: 100px;
-      background: #fff; }
+      background: #2b2d34 url(../../images/wxgzh.png) center;
+      background-size: cover;
+      display: none; }
+      .contact-us .way .weixin .QR-code img {
+        width: 100%;
+        height: 100%; }
       .contact-us .way .weixin .QR-code::after {
         position: absolute;
         left: -10px;

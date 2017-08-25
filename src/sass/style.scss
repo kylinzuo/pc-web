@@ -9,7 +9,7 @@ $dark-gray: #46484a;
 $base-font-size: 16px;
 $main-font: 'PingFang SC', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', sans-serif;
 $headline-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+$size-min-w: 940px;
 @mixin custom-button {
 	font-size: .75rem;
 	text-transform: uppercase;
@@ -243,6 +243,11 @@ li.nav-item {
 	height: auto;
 	border-radius: 0;
 	width: 100%;
+	.container {
+		max-width: $size-min-w;
+		min-width: $size-min-w;
+		padding: 0;
+	}
 	.swiper-container {
 		color: #000;
 		width: 100%;
@@ -542,7 +547,13 @@ li.nav-item {
 				bottom: 0;
 				width: 100px;
 				height: 100px;
-				background: #fff;
+				background: $placeholder-color url(../../images/wxgzh.png) center;
+				background-size: cover;
+				display: none;
+				img {
+					width: 100%;
+					height: 100%;
+				}
 				&::after {
 					position: absolute;
 					left: -10px;
